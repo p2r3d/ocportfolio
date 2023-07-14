@@ -25,6 +25,16 @@ function Skills() {
           </ul>
         </div>
         <div className="colDiv">
+          <i className="fas fa-bullseye"></i>
+          <h3>Stratégies</h3>
+          <ul>
+            <li>Référencement SEO</li>
+            <li>Optimisation des performances</li>
+            <li>Accessibilité</li>
+            <li>Green code</li>
+          </ul>
+        </div>
+        <div className="colDiv">
           <i className="fas fa-screwdriver" size="3x"></i>
           <h3>Outils</h3>
           <ul>
@@ -33,6 +43,7 @@ function Skills() {
             <li>Figma</li>
           </ul>
         </div>
+        
       </div>
     </section>
   )
