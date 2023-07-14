@@ -22,7 +22,7 @@ function Card() {
           <div className="left">
             <img
               className="cardImg"
-              src={require(`../../assets/${project.picture}`)}
+              src={require(`../../assets/projectImages/${project.picture}`)}
               alt="Projets"
               width="540"
               height="240"
@@ -37,7 +37,7 @@ function Card() {
                 <div key={technology.id}>
                   <img
                     className="cardtechnology"
-                    src={require(`../../assets/${technology.picture}`)}
+                    src={require(`../../assets/technoImages/${technology.picture}`)}
                     alt="Technologies"
                     width="30"
                     height="30"
@@ -49,12 +49,12 @@ function Card() {
               <div className="linksDiv">
                 {project.code && (
                 <a href={project.code} target="_blank" rel="noopener noreferrer">
-                  <img src={require("../../assets/github.webp")} alt="Lien GitHub" width="30" height="30" title="Vers le code source"/>
+                  <img src={require("../../assets/technoImages/github.webp")} alt="Lien GitHub" width="30" height="30" title="Vers le code source"/>
                 </a>
                 )}
                 {project.site && (
                 <a href={project.site} target="_blank" rel="noopener noreferrer">
-                  <img src={require("../../assets/booki_ico.PNG")} alt="Lien vers le site web" width="70" height="30" title="Vers le site web"/>
+                  <img src={require("../../assets/projectImages/booki_ico.PNG")} alt="Lien vers le site web" width="70" height="30" title="Vers le site web"/>
                 </a>
                 )}
               </div>

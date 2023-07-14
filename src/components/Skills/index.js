@@ -6,7 +6,7 @@ function Skills() {
       <h2>Compétences</h2>
       <div className='skillsDiv'>
         <div className="colDiv">
-        <i class="fas fa-desktop"></i>
+        <i className="fas fa-desktop"></i>
           <h3>Front-end</h3>
           <ul>
             <li>HTML5 / CSS3</li>
@@ -15,7 +15,7 @@ function Skills() {
           </ul>
         </div>
         <div className="colDiv">
-           <i class="fas fa-database"></i>
+           <i className="fas fa-database"></i>
 
           <h3>Back-end</h3>
           <ul>

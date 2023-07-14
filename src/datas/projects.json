@@ -13,10 +13,10 @@
          {
            "id": 2,
            "title": "Sophie Bluel",           
-           "picture": "SophieBluel.webp",
+           "picture": "SB_0.webp",
            "description": "Création d'une page web dynamique avec JavaScript",           
            "technos": [1,2,3],
-           "pictures":["SophieBluel.webp","SB_ajoutTravaux.webp","SB_missions.webp"],
+           "pictures":["SB_0.webp","SB_1.webp","SB_2.webp"],
            "code" : "https://github.com/p2r3d/https://github.com/p2r3d/P3_SophieBluel",
            "site" : ""
 

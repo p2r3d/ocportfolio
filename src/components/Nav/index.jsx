@@ -5,7 +5,7 @@ function Nav() {
     <section className="navDiv">      
       <div className='logoDiv'>
         <a href="#" className='logo' >
-          <img  src={require("../../assets/avataaars.PNG")}  alt="logo" width="50" height="50"/>
+          <img  src={require("../../assets/logo/avataaars.PNG")}  alt="logo" width="50" height="50"/>
         </a>
       </div>
       <nav className='navbar'>

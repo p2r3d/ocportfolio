@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './slideshow.scss';
-import PArrow from "../../assets/PArrow.png";
-import NArrow from "../../assets/NArrow.png";
+import PArrow from "../../assets/images/PArrow.png";
+import NArrow from "../../assets/images/NArrow.png";
 
 const Slideshow = ({selHousing}) => {
   const [index, setCurrentIndex] = useState(0);
@@ -32,7 +32,7 @@ const Slideshow = ({selHousing}) => {
         <img
           key={selHousing.id}
           className="slideshowImg"
-          src={require(`../../assets/${selHousing.pictures[index]}`)}
+          src={require(`../../assets/projectImages/${selHousing.pictures[index]}`)}
           alt={selHousing.title}
         />
         {/* affichage compteur */}
