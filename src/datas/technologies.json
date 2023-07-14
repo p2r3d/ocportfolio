@@ -18,7 +18,7 @@
          {
            "id": 4,
            "title": "React.js",           
-           "picture": "reactjs.webp"
+           "picture": "react.webp"
          },
          {
            "id": 5,
@@ -74,6 +74,11 @@
            "id": 15,
            "title": "Lighthouse",
            "picture": "lighthouse.webp"
+         },
+         {
+           "id": 16,
+           "title": "JSON Web Token",
+           "picture": "jwt.webp"
          }
        ]
      }

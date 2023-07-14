@@ -3,6 +3,8 @@ import Gallery from '../../components/Gallery';
 import AboutMe from '../../components/AboutMe';
 import Skills from '../../components/Skills';
 import Contact from '../../components/Contact';
+import Footer from '../../components/Footer';
+
 import "../../style/main.scss";
 
 function Home() {
@@ -13,6 +15,7 @@ function Home() {
       <Gallery/>
       <Skills/>
       <Contact/>
+      <Footer/>
     </div>);
 }
 

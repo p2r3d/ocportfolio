@@ -3,8 +3,9 @@ import './contact.scss'
 function Contact() {
   return (
     <section id="contact">
-      <div className="contactMe">
+      
       <h2>Contact</h2>
+      <div className="contactMe">
       <i className="fa-sharp fa-regular fa-envelope"></i>
       <p>pascale.pierrard@laposte.net</p>
       </div>

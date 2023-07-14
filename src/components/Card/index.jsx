@@ -61,7 +61,10 @@ function Card() {
             </div>   
 
           <div className="right" > 
-            <Slideshow selHousing={project} />           
+            <div className="SlideshowContainer">
+              <Slideshow selHousing={project} />   
+            </div>
+            <i className="fa-solid fa-magnifying-glass-plus"></i>          
           </div>
         </div>
        
