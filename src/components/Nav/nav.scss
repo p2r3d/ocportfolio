@@ -1,0 +1,57 @@
+@import '../../style/placeholders';
+@import '../../style/variables';
+
+.navDiv {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  .logoDiv {
+    padding-left : 50px;
+    align-items: center;
+    img {   
+      width: 75px;
+      height : 80px;
+      border-radius: 50%;
+    }
+  }
+  .navbar {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding : 40px;
+    gap: 1rem;
+  
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $font-color;
+      height: 37px;
+      padding: 0px 1.4rem;
+      font-size: 1.4rem;      
+      text-decoration-line: none;        
+      transition: all 0.2s ease-in-out;
+    } 
+    .btn:hover {
+      text-decoration: underline;
+    } 
+  }
+  
+}
+
+/********** Tablette **********/
+@media screen and (min-width:769px) and (max-width: 1023px) {
+  
+
+}
+  
+/************* Mobile *******************/
+@media screen and (max-width: 768px) {
+  
+}
+
+
+
+ 

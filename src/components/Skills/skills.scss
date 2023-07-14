@@ -1,0 +1,18 @@
+.skillsSection{ 
+      background-color: #fff;
+  .skillsDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    .colDiv {
+    margin: 1px;
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+    }
+  }
+}
+

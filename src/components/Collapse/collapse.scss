@@ -1,0 +1,99 @@
+@import '../../style/variables';
+@import '../../style/placeholders';
+
+.collapseSection {
+  .closedCollapse {
+    @extend %flex-center-between;
+    align-items:start;
+    color: $title-color;
+    //background-color: $kasa-color;
+    border-radius: $border-radius; 
+    width: 100%;
+    // hauteur max pour l'effet de transition
+    max-height: 50px; 
+  }
+  .openedCollapse {
+    // effet de transition
+    max-height:1000px; 
+    overflow: hidden;
+    transition: max-height 2s ease;
+    border-radius: 5px;
+    //background-color: $kasa-color; 
+    padding: 0;  
+    width: 100%;
+    .itemText {
+      padding: 18px;
+      margin:0;
+      background-color: $background-text-color;
+      //color:$kasa-color;
+      font-weight: 400;
+      }
+  }
+  .itemTitle {
+    @extend %flex-center-between;
+    height :47px;
+    padding-left: 18px;
+    width:100%; 
+    margin: 0;
+    color: $font-color; 
+    .arrowBtn {
+      border-radius:$border-radius;
+      border:0px;
+      padding: 0 10px;
+      //background-color: $kasa-color; 
+      transition-property: transform;
+      transition-duration: 300ms;
+      &:active {
+        transform: rotate(180deg) ;
+        text-align: center;
+      }
+      .arrowImg {
+      width:24px;
+      height:13px;
+      }
+    }
+    .arrowRotationDown {
+      transform: rotate(0deg) ;
+    } 
+   .arrowRotationUp {
+      transform: rotate(-180deg) ;
+   } 
+  }
+  li {
+      list-style-type: none;  
+  }
+}
+/************* Tablette *******************/
+@media screen and (min-width:769px) and (max-width: 1023px) {
+  .itemTitle {
+    font-size: 16px;
+  }
+  .arrowImg {
+    width:16px;
+    height:13px;
+  }
+ .itemText {
+    font-size: 16px;
+  } 
+}
+/************* Mobile *******************/
+@media screen and (max-width: 768px) {
+  .collapseSection {
+    .closedCollapse {
+      width: 100%;
+    }
+    .openedCollapse {
+      width: 100%;
+      .itemText {
+        font-size: 13px;
+      }
+    }
+    .itemTitle {
+      font-size: 13px;
+    }
+    .arrowImg {
+      width:13px;
+      height:8px;
+    }
+  }
+}

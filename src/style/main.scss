@@ -1,0 +1,39 @@
+@import './variables';
+@import './mixins';
+@import './placeholders';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto ;
+  max-width: 1440px;
+  padding: 0 $padding ;
+  font-size : $font-size;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  color : $font-color;
+}
+
+section {    
+  background: #F2F2F2;
+  padding: 20px;;
+  h2 {
+    margin : auto;
+    padding : 50px;
+  }
+}
+
+/************* Tablette *******************/
+@media screen and (min-width:769px) and (max-width: 1023px){
+  body {
+    padding :30px;
+  }
+} 
+/************* Mobile *******************/
+@media (max-width: 768px){
+   body {
+    padding :20px;
+  }
+}
