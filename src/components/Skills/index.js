@@ -16,7 +16,6 @@ function Skills() {
         </div>
         <div className="colDiv">
            <i className="fas fa-database"></i>
-
           <h3>Back-end</h3>
           <ul>
             <li>Node js</li>
@@ -29,7 +28,8 @@ function Skills() {
           <h3>Stratégies</h3>
           <ul>
             <li>Référencement SEO</li>
-            <li>Optimisation des performances</li>
+            <li>Optimisation</li>
+            <li>Performances</li>
             <li>Accessibilité</li>
             <li>Green code</li>
           </ul>
