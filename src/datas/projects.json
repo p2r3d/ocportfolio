@@ -4,7 +4,7 @@
            "id": 1,
            "title": "Booki",
            "picture": "booki.webp",
-           "description": "Création de la page d'accueil d'une agence de voyage.",
+           "description": "Création de la page d'accueil d'une agence de voyage",
            "technos": [1,2,8],
            "pictures":["booki_mission.webp","booki_0.webp","booki_1.webp"],
            "code" : "https://github.com/p2r3d/P2_Booki",

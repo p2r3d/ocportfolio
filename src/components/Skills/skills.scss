@@ -5,8 +5,7 @@
   .skillsDiv {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    align-items: center;
+    
     .colDiv {
       display: flex;
       flex-direction: column;
@@ -22,8 +21,7 @@
     }
     
   }
-  
-.skillsDiv .fas {
-  font-size: 3rem;
-}
+  .skillsDiv .fas {
+    font-size: 3rem;
+  }
 }

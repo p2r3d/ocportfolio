@@ -3,20 +3,9 @@
 .galleryDiv {
   display: flex;
   flex-direction: column;
-  padding: 0 20px 40px 20px;
-  .cardsDiv {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    grid-gap: 25px;
-    grid-auto-flow: dense;  
-
-  }
+  flex-wrap: wrap;
 }
 
-.opaque {
-  opacity: 0.4; 
-}
 /************* Tablette *******************/
 @media screen and (min-width:769px) and (max-width: 1023px){
 }

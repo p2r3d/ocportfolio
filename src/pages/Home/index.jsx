@@ -1,5 +1,6 @@
 import Nav from '../../components/Nav';
 import Gallery from '../../components/Gallery';
+//import Gallery0 from '../../components/Gallery0';
 import AboutMe from '../../components/AboutMe';
 import Skills from '../../components/Skills';
 import Contact from '../../components/Contact';
@@ -13,6 +14,7 @@ function Home() {
       <Nav />
       <AboutMe/>
       <Gallery/>
+      {/*<Gallery0/>*/}
       <Skills/>
       <Contact/>
       <Footer/>
