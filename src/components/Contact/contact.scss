@@ -1,12 +1,13 @@
 .contactSection {
   padding-top: 1px;
-.contactMe {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.fa-sharp {
-  font-size:2rem;
-}
+  .contactMe {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    filter:grayscale(40);
+  }
+  .fa-sharp {
+    font-size:2rem;
+  }
 }
