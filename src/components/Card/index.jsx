@@ -18,7 +18,7 @@ console.log(project);
         <p className="cardDescription">{project.description}</p>
         <div className="overlayDiv">
           <span className="plusDiv">
-            <i className="fa-solid fa-circle-plus"></i>
+            <i className="fa-solid fa-circle-plus" title="Plus d'infos"></i>
           </span>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './slideshow.scss';
-import PArrow from "../../assets/images/PArrow.png";
-import NArrow from "../../assets/images/NArrow.png";
+import Arrows from "../../assets/images/Arrows.png";
 
 const Slideshow = ({selHousing}) => {
   const [index, setCurrentIndex] = useState(0);
@@ -25,7 +24,7 @@ const Slideshow = ({selHousing}) => {
         <img
           className={selHousing.pictures.length === 1 ? "PArrowNone" : "PArrow"}
           onClick={previousPicture}
-          src={PArrow}
+          src={Arrows}
           alt="Flèche précédente"
         />
         {/* affichage photo */  }
@@ -43,7 +42,7 @@ const Slideshow = ({selHousing}) => {
         <img
           className={selHousing.pictures.length === 1 ? "NArrowNone" : "NArrow"}
           onClick={nextPicture}
-          src={NArrow}
+          src={Arrows}
           alt="Flêche suivante"
         />
       </div> 
