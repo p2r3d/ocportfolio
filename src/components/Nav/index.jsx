@@ -5,14 +5,15 @@ function Nav() {
     <section className="navDiv">      
       <div className='logoDiv'>
         <a href="#" className='logo' >
-          <img  src={require("../../assets/logo/avataaars.PNG")}  alt="logo" width="50" height="50"/>
+        <i class="fa-solid fa-feather" width="50" height="50"></i>
+          {/*<img  src={require("../../assets/logo/avataaars.PNG")}  alt="logo" width="50" height="50"/>*/}
         </a>
       </div>
       <nav className='navbar'>
-        <a href="#" className="btn" >Accueil</a>
-        <a href="#portfolio" className="btn" >Portfolio</a>
-        <a href="#skills" className="btn" >Compétences</a>
-        <a href="#contact" className="btn" >Contact</a>
+        <a href="#" className="navLink" >Accueil</a>
+        <a href="#portfolio" className="navLink" >Portfolio</a>
+        <a href="#skills" className="navLink" >Compétences</a>
+        <a href="#contact" className="navLink" >Contact</a>
       </nav>
     </section>
   )

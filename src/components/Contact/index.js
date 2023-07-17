@@ -2,7 +2,7 @@ import './contact.scss'
 
 function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className='contactSection'>
       <h2>Contact</h2>
       <div className="contactMe">
       <i className="fa-sharp fa-regular fa-envelope"></i>

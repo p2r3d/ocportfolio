@@ -1,15 +1,12 @@
+.contactSection {
+  padding-top: 1px;
 .contactMe {
   display:flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
-  
 }
 .fa-sharp {
-    font-size:3rem;
-  }
-
-
-
+  font-size:2rem;
+}
+}

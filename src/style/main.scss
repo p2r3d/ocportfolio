@@ -5,24 +5,22 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: auto ;
+  padding:0 50px;
   max-width: 1440px;
-  padding: 0 $padding ;
   font-size : $font-size;
   font-family: $font-family;
   font-weight: $font-weight;
   color : $font-color;
 }
-
 section {    
   background: #F2F2F2;
-  h2 {
-    padding : 20px 50px;
-  }
+  
 }
-
+h2 {
+    padding : 0 20px;
+}
 /************* Tablette *******************/
 @media screen and (min-width:769px) and (max-width: 1023px){
   body {
