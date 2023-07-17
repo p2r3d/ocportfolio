@@ -1,7 +1,25 @@
+@import '../../style/variables';
+
 .aboutMe {
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #fff;  
   padding: 0 30px;
+  .visible {
+    margin: 0;
+    overflow: hidden; 
+    line-height: 1.7rem;;
+  }
+  .invisible {
+    margin-top: 10px;
+    display: none;
+  }
+  .openTextBtn {
+    font-size: 25px;
+    background-color: transparent;
+    color: $font-color;
+    border: none;
+    cursor: pointer;
+  }
 }
